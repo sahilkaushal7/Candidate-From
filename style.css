@@ -1,0 +1,53 @@
+body{
+	background-color : lightblue;
+}
+.main{
+	width: 700px;
+	margin: 0 auto;
+	background-color: white;
+	padding : 20px;
+}
+
+input[type=submit] {
+    width: 97%;
+	margin : 10px 10px 10px 40px;
+    padding: 8px 5px;
+	font-size : 15px;
+	border: none;
+	border-bottom : 1px solid lightgrey;
+}
+input[type=submit]:hover {
+   background-color: lightgrey;
+}
+input[type=text],[type=number] {
+    width: 97%;
+    padding: 8px 5px;
+    margin: 8px 0;
+	font-size : 15px;
+	border: none;
+	border-bottom : 1px solid lightgrey;
+}
+input[type=text]:focus,[type=number]:focus {
+	outline : none;
+	border : none;
+    border-bottom : 1px solid blue ;
+}
+h3{
+	background-color : #e8e8e8;
+	padding : 10px;
+}
+.section {
+	border : 1px solid #e8e8e8;
+	padding : 25px;
+	margin-top : -20px;
+}
+label{
+	color:#8e8282;
+}
+span{
+	display : block;
+	float : right;
+	padding-right : 20px;
+	color:#8e8282;
+	font-size : 12px;
+}
